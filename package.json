@@ -1,0 +1,22 @@
+{
+  "name": "snow-vr",
+  "version": "1.0.0",
+  "description": "sala de realidade virtual prototipo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon app.js",
+    "start": "node src/server.js"
+  },
+  "author": "john",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.1",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
