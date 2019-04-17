@@ -74,6 +74,7 @@ npm install
 //
 //cd .git
 //del index.lock
+//rm -Force ./.git/index.lock
 
 ///
 let app = express();
